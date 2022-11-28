@@ -1,0 +1,55 @@
+.track {
+    height: 75px;
+    display: grid;
+    grid-column: 4;
+    background-color: #121212;
+    font: caption;
+    grid-template-columns: 1fr 200px 1fr;
+}
+
+.grid-one {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.grid-two {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+}
+
+.grid-three {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.title {
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 120%;
+    text-align: left;
+    max-width: 100%;
+}
+
+.artist {
+    color: #696969;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 100%;
+    text-align: left;
+    max-width: 100%;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+}
+
+.duration {
+    color: #696969;
+    line-height:550%;
+    font-size: 100%;
+    text-align: left;
+    max-width: 100%;
+}
